@@ -26,3 +26,5 @@ A visually engaging, modern landing page for promoting AI agent solutions. Built
 
 ## License
 MIT — Free for personal and commercial use.
+
+## Test only
