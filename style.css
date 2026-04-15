@@ -17,7 +17,38 @@ header {
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 114, 255, 0.3);
 }
+.feedback {
+  padding: 40px;
+  text-align: center;
+}
 
+.feedback form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback input,
+.feedback textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.feedback button {
+  background: #6a11cb;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.feedback button:hover {
+  background: #2575fc;
+}
 .header-bg-shape {
     position: absolute;
     border-radius: 50%;
